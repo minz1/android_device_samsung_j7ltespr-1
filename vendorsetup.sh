@@ -1,0 +1,2 @@
+add_lunch_combo cm_j3ltespr-userdebug
+add_lunch_combo cm_j3ltespr-eng
