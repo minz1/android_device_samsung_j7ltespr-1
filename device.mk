@@ -67,9 +67,13 @@ PRODUCT_PACKAGES += \
    com.dsi.ant.antradio_library \
    libantradio
 
-# libril_shim
+# Samsung libril shim library
 PRODUCT_PACKAGES += \
-    libril_shim
+   libril_shim
+
+# Gello
+PRODUCT_PACKAGES += \
+   Gello
 
 # Set default USB configuration
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
