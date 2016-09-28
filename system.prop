@@ -1,5 +1,5 @@
 #
-# system.prop for j3ltespr
+# system.prop for j7ltespr
 #
 
 # ART
@@ -51,9 +51,9 @@ persist.audio.fluence.speaker=true
 tunnel.audio.encode = false
 ro.config.low_ram=false
 #Buffer size in kbytes for compress offload playback
-audio.offload.buffer.size.kb=32
+audio.offload.buffer.size.kb=64
 #use VERY_HIGH_QUALITY for audio resampler
-af.resampler.quality=4
+#af.resampler.quality=4
 #Enable offload audio video playback by default
 av.offload.enable=false
 #enable voice path for PCM VoIP by default
@@ -79,7 +79,7 @@ wifi.interface=wlan0
 ro.qualcomm.bt.hci_transport=smd
 
 # Qualcomm
-ro.chipname=MSM8916
+ro.chipname=MSM8929
 ro.qualcomm.cabl=0
 
 # GPS

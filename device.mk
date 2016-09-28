@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-$(call inherit-product-if-exists, vendor/samsung/j3ltespr/j3ltespr-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/j7ltespr/j7ltespr-vendor.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
@@ -82,5 +82,5 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 $(call inherit-product, frameworks/native/build/phone-hdpi-2048-dalvik-heap.mk)
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
 
-# Inherit from msm8916-common
-$(call inherit-product, device/samsung/msm8916-common/msm8916.mk)
+# Inherit from msm8929-common
+$(call inherit-product, device/samsung/msm8929-common/msm8929.mk)

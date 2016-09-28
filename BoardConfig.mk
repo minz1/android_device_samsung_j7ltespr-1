@@ -14,18 +14,19 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/j3ltespr
+DEVICE_PATH := device/samsung/j7ltespr
 
-# Inherit from msm8916-common
--include device/samsung/msm8916-common/BoardConfigCommon.mk
+# Inherit from msm8929-common
+-include device/samsung/msm8929-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := j3ltespr,SM-J320P,J320P
+TARGET_OTA_ASSERT_DEVICE := j7ltespr,SM-J700P,J700P
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/samsung/j3ltespr
-TARGET_KERNEL_CONFIG :=  cm_j3lte_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/j7ltespr
+TARGET_KERNEL_CONFIG :=  msm8929_sec_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := msm8929_sec_j7_spr_defconfig
 
 # Partition Info
 BOARD_BOOTIMAGE_PARTITION_SIZE := 13631488
@@ -69,15 +70,15 @@ COMMON_GLOBAL_CFLAGS += -DNO_SECURE_DISCARD
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 # RIL class
-BOARD_RIL_CLASS := ../../../device/samsung/j3ltespr/ril/
+BOARD_RIL_CLASS := ../../../device/samsung/j7ltespr/ril/
 
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
 # Vendor Init
 TARGET_UNIFIED_DEVICE := true
-TARGET_INIT_VENDOR_LIB := libinit_j3ltespr
-TARGET_LIBINIT_DEFINES_FILE := libinit_j3ltespr
+#TARGET_INIT_VENDOR_LIB := libinit_j7ltespr
+#TARGET_LIBINIT_DEFINES_FILE := libinit_j7ltespr
 
 # Enable dex-preoptimization to speed up first boot sequence
 WITH_DEXPREOPT := true

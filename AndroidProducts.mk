@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_j3ltespr.mk
+    $(LOCAL_DIR)/full_j7ltespr.mk
