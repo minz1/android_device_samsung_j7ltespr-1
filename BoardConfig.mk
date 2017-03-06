@@ -24,7 +24,9 @@ TARGET_OTA_ASSERT_DEVICE := j7ltespr,SM-J700P,J700P
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/msm8929
-TARGET_KERNEL_CONFIG :=  lineageos_j7ltespr_defconfig
+TARGET_KERNEL_CONFIG :=  msm8929_sec_defconfig
+TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := msm8929_sec_j7_spr_defconfig
 
 # Partition Info
 BOARD_BOOTIMAGE_PARTITION_SIZE := 13631488
