@@ -20,7 +20,7 @@ $(call inherit-product, device/samsung/j7ltespr/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := j7ltespr
-PRODUCT_NAME := j7ltespr
+PRODUCT_NAME := full_j7ltespr
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := SM-J700P

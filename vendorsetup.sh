@@ -1,2 +1,2 @@
-add_lunch_combo cm_j7ltespr-userdebug
-add_lunch_combo cm_j7ltespr-eng
+add_lunch_combo lineage_j7ltespr-userdebug
+add_lunch_combo lineage_j7ltespr-eng
