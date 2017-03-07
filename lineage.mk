@@ -20,3 +20,8 @@ $(call inherit-product, device/samsung/j7ltespr/full_j7ltespr.mk)
 
 # Release name
 PRODUCT_NAME := lineage_j7ltespr
+
+# build.prop Overrides
+PRODUCT_BUILD_PROP_OVERRIDES += \
+BUILD_FINGERPRINT=samsung/j7ltespr/j7ltespr:6.0.1/MMB29M/J700PVPU1APH4:user/release-keys \
+PRIVATE_BUILD_DESC="j7ltespr-user 6.0.1 MMB29M J700PVPU1APH4 release-keys"
