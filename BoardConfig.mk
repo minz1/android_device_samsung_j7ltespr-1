@@ -27,6 +27,10 @@ TARGET_KERNEL_SOURCE := kernel/samsung/msm8929
 TARGET_KERNEL_CONFIG :=  msm8929_sec_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
 TARGET_KERNEL_VARIANT_CONFIG := msm8929_sec_j7_spr_defconfig
+TARGET_KERNEL_TIMA_CONFIG := tima_defconfig
+TARGET_KERNEL_SELINUX_LOG_CONFIG := selinux_log_defconfig
+TARGET_KERNEL_DEBUG_CONFIG := msm8929_sec_userdebug_defconfig
+TARGET_KERNEL_DMVERITY_CONFIG := dmverity_defconfig 
 
 # Partition Info
 BOARD_BOOTIMAGE_PARTITION_SIZE := 13631488
